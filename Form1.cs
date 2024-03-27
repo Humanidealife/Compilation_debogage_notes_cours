@@ -16,5 +16,10 @@ namespace Compilation_debogage_notes_cours
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Test du bouton");
+        }
     }
 }
