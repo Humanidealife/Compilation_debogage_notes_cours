@@ -19,7 +19,24 @@ namespace Compilation_debogage_notes_cours
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Test du bouton");
+            //MessageBox.Show("Test du bouton 2");
+            Methode1();
+        }
+
+        void Methode1()
+        {
+            Methode2();
+        }
+
+        void Methode2()
+        {
+            Methode3();
+        }
+
+        void Methode3()
+        {
+            //lever une exception
+            throw new Exception("Une erreur");
         }
     }
 }
