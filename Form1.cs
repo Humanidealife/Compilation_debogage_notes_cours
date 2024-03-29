@@ -50,6 +50,19 @@ namespace Compilation_debogage_notes_cours
             #endregion
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("Bienvenue dans mon programmeWinforms C#",
+                "Bonjour",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Information);
+        }
+
         /*void Methode1()
         {
             Methode2();
