@@ -14,6 +14,7 @@ namespace Compilation_debogage_notes_cours
     {
         int x = 0;
         int y = 0;
+        List<string> maListe = new List<string> { "rouge", "bleu", "violet", "blanc"};
 
         public Form1()
         {
@@ -24,13 +25,13 @@ namespace Compilation_debogage_notes_cours
         {
             //MessageBox.Show("Test du bouton 2");
             //Methode1();
-            /*y = x + 1;
-            x++;*/
-            for (int i = 0; i <10; i++)
+            y = x + 1;
+            x++;
+            /*for (int i = 0; i <10; i++)
             {
                 x++;
                 y = x * i;
-            }
+            }*/
         }
 
         /*void Methode1()
