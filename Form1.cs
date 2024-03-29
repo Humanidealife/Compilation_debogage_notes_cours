@@ -1,4 +1,6 @@
-﻿using System;
+﻿#define TEST
+#undef TEST
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,13 +27,27 @@ namespace Compilation_debogage_notes_cours
         {
             //MessageBox.Show("Test du bouton 2");
             //Methode1();
-            y = x + 1;
-            x++;
+            /*y = x + 1;
+            x++;*/
             /*for (int i = 0; i <10; i++)
             {
                 x++;
                 y = x * i;
             }*/
+            /*#if DEBUG
+            #warning Attention ceci est une alerte !
+            #error Attention ceci est une erreur !
+                        MessageBox.Show("Mode débug actuellement");
+            #else
+                        MessageBox.Show("Mode release actuellement");
+            #endif*/
+
+            #region Une boucle
+            for (int i = 0; i <10; i++)
+            {
+                MessageBox.Show("Text");
+            }
+            #endregion
         }
 
         /*void Methode1()
