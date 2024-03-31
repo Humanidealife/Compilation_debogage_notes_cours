@@ -49,3 +49,6 @@ _NCrunch_*
 
 # Ignore Visual Studio files
 .vs/
+
+# Ignore Publish
+publish/
